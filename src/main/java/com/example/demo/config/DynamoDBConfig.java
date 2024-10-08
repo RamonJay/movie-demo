@@ -30,4 +30,5 @@ public class DynamoDBConfig {
 				.withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(endpoint, region))
 				.withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials(accessKey, secretKey))).build();
 	}
+	
 }
