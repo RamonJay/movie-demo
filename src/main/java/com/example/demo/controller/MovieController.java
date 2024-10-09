@@ -28,4 +28,9 @@ public class MovieController {
 		return ResponseEntity.ok(movieService.addMovie(movie));
 	}
 	
+	@GetMapping("/hello")
+	public ResponseEntity<String> hello(){
+		return ResponseEntity.ok("Hello word!");
+	}
+	
 }
